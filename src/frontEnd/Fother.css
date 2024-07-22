@@ -1,0 +1,65 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 99%;
+    margin-top: 50px;
+    flex-direction: column;
+    color: white;
+
+    hr{
+        width: 100%;
+    }
+}
+
+.First_fother{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+
+    div{
+        width: 20%;
+        height: 100%;
+    }
+}
+.navList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navList a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.copy{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px;
+}
+.contactFother{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a{
+        color: white;
+        cursor: pointer;
+        font-size: 25px;
+    }
+}
+.ContactLink{
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    a{
+    }
+
+}

@@ -1,0 +1,112 @@
+.Home_continer{
+    height: 240vh;
+    width:70% ;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    flex-direction: row-reverse !important;
+    position: relative;
+}
+
+.QER_HOME{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.QeR{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 20px;
+    justify-content: center;
+    height: 300px;
+
+    li{
+        width: 100%;
+        color: white;
+        margin-left: 10px;
+        list-style: none;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h1{
+            font-weight: bold;
+            font-size: 17px;
+            font-family: inherit;
+            border-bottom: 2px solid #ef9f00;
+            padding: 5px;
+            cursor: pointer;
+        }
+        p{
+            font-weight: bold;
+            font-size: 15px;
+            font-family: inherit;
+            padding: 5px;
+        }
+        span{
+            color: #ef9f00;
+            font-size: 35px;
+            
+            font-style: italic;
+        }
+    }
+
+    p{
+        max-width: 90%;
+        color: white;
+
+        a{
+            color: #ef9f00;
+            font-size:20px ;
+            margin-left: 20px;
+        }
+    }
+}
+
+.QeR_button{
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ef9f00;
+    color: white;
+    font-size: 18px;
+}
+@media screen and (max-width:768px) and (min-width:300px){
+    .QeR{
+        width: 80%;
+        height: fit-content;
+
+        h1{
+            font-size: 21px;
+        }
+    }
+    .NotConnect {
+        h1{
+            font-size: 15px;
+        }
+    }
+    li{
+        a{
+            margin-top: 20px;
+        }
+    }
+}
+
+.custom-shape-divider-top-1721431552 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+

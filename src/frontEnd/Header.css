@@ -1,0 +1,138 @@
+header{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+header>div{
+    display: flex;
+    align-items: start;
+    width: 400px;
+    height: 100%;
+    margin-top: 10px;
+}
+
+header>div>img{
+    width: 70px;
+    height: 70px;
+}
+
+header>div > .title{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: space-between;
+    width: fit-content;
+
+
+    h1{
+        color: #FAEDF0;
+        letter-spacing: 6px;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: monospace;
+    }
+    h4{
+        color: #FAEDF0;
+        font-size: 10px;
+        letter-spacing: 2px;
+        font-family: cursive;
+    }
+}
+
+.conect{
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    color:#FAEDF0 ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #ef9f00;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+.LOgout{
+    display: flex;
+    width: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+.user{
+    display: flex;
+    align-items: center;
+
+    img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    h3{
+        font-size: 15px;
+        color: #FAEDF0;
+        font-family: monospace;
+        margin-left: 20px;
+
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:300px){
+    header{
+        width: 95%;
+        margin: 0 5px;
+
+        img{
+            margin-left: 20px;
+
+        }
+        button{
+            margin-right: 20px;
+        }
+    }
+    .LOgout{
+        width: calc(100% - 130px);
+        justify-content: space-between;
+    }
+    .title{
+        display: none !important;
+    }
+    header>div{
+        width: 100px;
+        align-items: center;
+    }
+    header>div>img{
+        width: 45px;
+        height: 45px;
+    }
+    header > div > .title >h1{
+        font-size: 20px;
+    }
+    header > div > .title >h4{
+        width: 150px;
+    }
+    .conect{
+        height: 35px !important;
+        width: 80px !important;
+        font-size: 10px;
+    }
+    .user{
+        h3{
+            margin-left: 0 !important;
+            font-size: 10px !important;
+        }
+        
+    }
+    .para{
+        .icons{
+            width: 40% !important;
+        }
+    }
+}

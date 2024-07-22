@@ -1,0 +1,73 @@
+.about_continer{
+    height: 170vh;
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.about{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+    .about_title{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1{
+            color: white;
+        }
+    }
+    .about_para{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p{
+            color: white;
+            max-width: 60%;
+        }
+    }
+
+}
+.about_info{
+    color: white;
+    font-size: 18px;
+}
+.about_program{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        font-size: 20px;
+        color: white;
+    }
+}
+.about_button{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button{
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        width: 100px;
+        color: white;
+        background-color: #ef9f00;
+        font-size: 18px;
+    }
+}
