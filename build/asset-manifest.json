@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.81e6ed38.css",
+    "main.js": "/static/js/main.4fa93bc6.js",
+    "static/js/453.2c71b8e9.chunk.js": "/static/js/453.2c71b8e9.chunk.js",
+    "static/media/linuxlogo.png": "/static/media/linuxlogo.8cca9c3948a4a16043eb.png",
+    "static/media/VS.png": "/static/media/VS.7c6a501e464636791626.png",
+    "static/media/linux4.jpg": "/static/media/linux4.33a645bb5d7d379eae26.jpg",
+    "static/media/imgLinux1.jpg": "/static/media/imgLinux1.811161614db488e53a4e.jpg",
+    "static/media/linux3.jpg": "/static/media/linux3.179f6afcc53588bf777a.jpg",
+    "static/media/linux5.jpg": "/static/media/linux5.2cbdfe2227af32b89abf.jpg",
+    "static/media/ARD.png": "/static/media/ARD.e91077964f0d2f050d37.png",
+    "static/media/sql2.png": "/static/media/sql2.c51be954e8e4790dafdf.png",
+    "static/media/PC.png": "/static/media/PC.13cf6c1ce5417b557713.png",
+    "static/media/DISCOUR.webp": "/static/media/DISCOUR.9906617034e3fda198ef.webp",
+    "static/media/login.svg": "/static/media/login.9e60a2a8db74b95fbd24d95ca851cf57.svg",
+    "static/media/nodejs.webp": "/static/media/nodejs.4eef3fabccdfe17082d6.webp",
+    "index.html": "/index.html",
+    "main.81e6ed38.css.map": "/static/css/main.81e6ed38.css.map",
+    "main.4fa93bc6.js.map": "/static/js/main.4fa93bc6.js.map",
+    "453.2c71b8e9.chunk.js.map": "/static/js/453.2c71b8e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81e6ed38.css",
+    "static/js/main.4fa93bc6.js"
+  ]
+}
